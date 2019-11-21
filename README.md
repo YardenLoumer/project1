@@ -31,8 +31,11 @@ https://gist.github.com/Aleksey-Danchin/4170890f2d50ebe6e1d6d8cf6a05a3f3
 --save-dev webpack webpack-dev-server webpack-cli
 
 5.1 Создаем в проекте файл index.html
+
 5.2 Добавляем scripts в package.json
+
 5.3 Добавляем в проект файл webpack.config.js
+
 5.4 Запускаем проект через webpack: npm run serve , в браузере проект будет тут: http://localhost:8080/. Теперь проект будет обновляться автоматически, без перезагрузки.
 
 6. Устанавливаем nodemon:  npm install -g nodemon
