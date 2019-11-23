@@ -17,6 +17,9 @@ npm install config
 После этого появляется папка node_modules. Также зависимости нужно сохранить для файла package.json install config --save.
 
 3. Пишем код и запускаем командой node script.js.
+* Бывает что скрипты не бегут т к в Execution Policy на это есть запрет, и надо этот запрет отменить:
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
 Для импортирования классов и модулей в ЕС 5 используются команды require и module.exports. В ЕС 6 - import и export/export default.
 Но для того чтобы их использовать надо установить babel.
 
